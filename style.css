@@ -1,0 +1,108 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+.head {
+  padding-top: 30px;
+}
+.head1 {
+  padding-top: 90px;
+}
+.myVideo {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 50%;
+  z-index: -1;
+}
+.mySlides {display:none;}
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+* {
+  box-sizing: border-box;
+}
+.ccontainer {
+  position: relative;
+  max-width: 1500px;
+  margin-top: 20px;
+  border: black solid 3px;
+  margin-bottom: 20px;
+}
+.bg{
+  background-image: url("bg1.jpg");
+}
+
+.ccontainer .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+}
+.ccontainer img {vertical-align: middle;}
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.footer-awards{
+  display: flex;
+  margin-top: 10px;
+  
+}
+.footer-logo{
+  margin-right: 60px;
+  margin-left: 20px;
+}

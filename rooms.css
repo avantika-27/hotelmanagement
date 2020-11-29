@@ -1,0 +1,149 @@
+ h1 {
+    font-family: 'Lobster', serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #483D8B;
+    text-align: center;
+   }
+
+body{
+  background-image:url("backroom.png");
+  background-color: rgb(243, 243, 243);
+}
+.header{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.logo{
+  float: right;
+  padding-right: 550px;
+}
+
+.bgro {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 50%;
+  z-index: -1;
+}
+.displayroom {
+  width: 80%;
+  margin: 50px auto;
+}
+ p {
+	  text-align: center;
+	  font: "FranklinGothicURW-Boo","Arial";
+	
+  }
+  
+.table1 {
+	 margin: 50px auto;
+	 width: 80%;
+  }
+
+.table1 td {
+	font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+}
+.room1 {
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: #DC143C;
+    text-align: center;
+   }
+.contain {
+  display:flex;
+  background-color: rgba(236, 236, 236, 0.884);
+  border: 4px solid grey;
+  margin: 2px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	 border: 10px solid black;
+}
+
+
+.book{
+	background-image: url("buttonsbg.jpg");
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	padding: 10px;
+	height: 75px;
+  width : 150px;
+  outline: 1px solid white;
+  outline-offset: -5px;
+  text-decoration: none;
+	
+}
+.content{
+  font-size: 20px;
+  font:"FranklinGothicURW-Boo","Arial";
+  text-align: justify;
+
+}
+.define {
+  color:grey;
+  text-align: left;
+}
+.header_break {
+  background: url(1dis.png) center center repeat #e8e6d8;
+}
+.border_zig_zag {
+  height: 15px;
+  width: 100%;
+  background: url(2dis.png) 50% 50% repeat-x;
+}
+.full_width_header.no_copy {
+  padding-bottom: 35px;
+}
+.blue, .blue_theme, .themed_color {
+  color: hsl(196, 95%, 22%);
+}
+.full_width_header header {
+  text-align: center;
+}
+.text_upper, .full_width_header h1 {
+  text-transform: uppercase;
+}
+.page_header_copy, h1 {
+  color: #424242;
+  font-family: "BodoniBT-Book","Times New Roman";
+  font-weight: normal;
+  font-size: 70px;
+  font-size: 4.375rem;
+  line-height: 63px;
+  line-height: 3.938rem;
+  letter-spacing: -1.26px;
+  letter-spacing: -0.079rem;
+}
+.page_subheader_copy, h2 {
+  color: #8a887c;
+  font-family: "BodoniBT-BookItalic","Georgia";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  font-size: 1.313rem;
+  line-height: 21px;
+  line-height: 1.313rem;
+}
+.header_bar {
+  width: 100%;
+  height: 15px;
+  background: url(3dis.png) 50% 50% no-repeat;
+}
+.footer{
+  width: 100%;
+  margin: auto;
+}
+.footer-awards{
+  display: flex;
+  margin-top: 20px;
+  
+}
+.footer-logo{
+  margin-right: 70px;
+  margin-left: 20px;
+}
