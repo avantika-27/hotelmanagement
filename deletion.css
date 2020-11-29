@@ -1,0 +1,29 @@
+.c {
+  background-color: rgb(248, 232, 248);
+
+}
+.displayy { 
+    width: 380px;
+    height: 350px; 
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+} 
+.a { opacity: 0.9;
+    background-color: lavenderblush;
+    padding: 25px; 
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.footer-awards{
+  display: flex;
+  margin-top: 10px;
+  
+}
+.footer-logo{
+  margin-right: 60px;
+  margin-left: 20px;
+}

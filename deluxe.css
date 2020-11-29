@@ -1,0 +1,237 @@
+ h1 {
+    font-family: 'Lobster', serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #033c5e;
+   }
+   .h1 {
+     font-family: FreightDisp Pro,Helevtica,Arial,sans-serif;
+   }
+   .pic {
+     position: absolute;
+     padding-left: 250px;
+     padding-top: 1100px;
+     
+   }
+* {box-sizing:border-box;
+margin: 0px;
+}
+.form {
+  background-image: url(backroom.png);
+  background-color: rgb(255, 228, 200);
+  
+}
+/* Slideshow container */
+.slideshow-containerr {
+  position: relative;
+  width: 100%;
+  margin: 1px auto;
+}
+.header_break {
+  background: url(1dis.png) center center repeat #e8e6d8;
+}
+.border_zig_zag {
+  height: 15px;
+  width: 100%;
+  background: url(2dis.png) 50% 50% repeat-x;
+}
+.full_width_header.no_copy {
+  padding-bottom: 35px;
+}
+
+/* Hide the images by default */
+.mySlidess {
+  display: none;
+  border: 5px solid black;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Number text (1/3 etc) */
+.numbertexts {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dott {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dott:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fadee {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h3{
+  color: #483D8B;
+}
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  border: 1px solid grey;
+}
+ body {
+  background-color: whitesmoke;
+	} 
+.book{
+	background-image: url("buttonsbg.jpg");
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	padding: 10px;
+	height: 75px;
+  width : 150px;
+  outline: 1px solid white;
+  outline-offset: -5px;
+  text-decoration: none;
+  
+}
+.holder {
+  height: 50px;
+  position: relative;
+  
+}
+.header {
+  padding: 5px;
+}
+
+.deluxecontent{
+  background: rgb(255, 255, 255);
+  color: #000000;
+  font-family: "Futura W01 Book", Arial, Helvetica, sans-serif;
+  padding: 50px;
+  width: 80%;
+  margin: 20px auto;
+}
+.header_bar {
+  width: 200px;
+  height: 25px;
+  background: url(3dis.png) 50% 50% no-repeat;
+  color: #000;
+  
+}
+
+.fix {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  font-style: italic;
+  font-weight: bold;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.details{
+	font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #483D8B;
+}
+.roomdes{
+  font-family: FreightDisp Pro,Helevtica,Arial,sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+.subheading{
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-size: 27px;
+  color: #033c5e;
+}
+.footer{
+  width: 100%;
+  margin: auto;
+}
+.footer-awards{
+  display: flex;
+  margin-top: 20px;
+  
+}
+.footer-logo{
+  margin-right: 70px;
+  margin-left: 20px;
+}

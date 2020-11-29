@@ -1,0 +1,44 @@
+body{
+    background-image: url('bannerbg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.dis { 
+    width: 480px;
+    height: 550px; 
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding-top: 150px;
+    opacity: 0.9;
+}
+.a{ 
+    background-color: white;
+    padding: 25px; 
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.book{
+	background-image: url("buttonsbg.jpg");
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	padding: 10px;
+	height: 45px;
+  width : 350px;
+  outline: 1px solid white;
+  outline-offset: -5px;
+  text-decoration: none;
+  
+	
+}
+.a{ opacity: 0.9;
+    background-color: white;
+    padding: 25px; 
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.footer{
+    padding-top: 350px;
+}

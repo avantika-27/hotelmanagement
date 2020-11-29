@@ -1,0 +1,42 @@
+.places{
+    background-color: gainsboro;
+    
+}
+.bgex {
+    /* The image used */
+    background-image: url("exploreimg.jpg");
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .zoom {  
+    border: black solid 3px;
+    transition: transform .2s; 
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); 
+  
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(214, 57, 86);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>Image Gallery</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="header">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="home.php">About</a>
+        <a href="Room.html">Rooms</a>
+        <a href="image.html">Gallery</a>
+        <a href="explore.html">Explore</a>
+        <a href="Location.html">Location</a>
+        <a href="Contact.php">Contact Us & Feedback</a>
+        <a href="cancel.php">Request for Reservation Cancellation</a>
+<a href="login.php">Admin</a>
+      </div>
+    </div>
+    <span style="font-size:30px;cursor:pointer;padding-left: 30px; " onclick="openNav()" >&#9776; Menu</span>
+    <div class="logo">
+      <center><a href="home.html"><img src="logo1.png" alt="The Hotel Logo" width="200px" height="130px" ></a></center>
+    </div>
+    </div>
+  <h1 style="text-align:center">PHOTO GALLERY</h1>
+  <h3 style="text-align:center">HOTEL OVERVIEW</h3>
+
+<div class="ccontainer">
+  <div class="mySlides">
+    <div class="numbertext">1 / 12</div>
+    <img src="1.jpg" style="width:100%; height:80%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 12</div>
+    <img src="2.jpg" style="width:100%; height:80%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 12</div>
+    <img src="3.jpg" style="width:100%; height:80%;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 12</div>
+    <img src="4.jpg" style="width:100%; height:80%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 12</div>
+    <img src="5.jpg" style="width:100%; height:80%;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 12</div>
+    <img src="6.jpg" style="width:100%; height:80%;">
+  </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+    <img src="7.jpg" style="width:100%; height:80%;">
+   </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">8/ 12</div>
+    <img src="8.jpg" style="width:100%; height:80%;">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">9/ 12</div>
+    <img src="9.jpg" style="width:100%; height:80%;">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10/ 12</div>
+    <img src="10.jpg" style="width:100%; height:80%;">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">11/ 12</div>
+    <img src="11.jpg" style="width:100%; height:80%;">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">12/ 12</div>
+    <img src="12.jpg" style="width:100%; height:80%;">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Our Hotel Entrance ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Our Hotel Lobby Welcomes You with soaring ceilings and elegant.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Floor to ceiling windows fill our Deluxe suite.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Our Restaurant showcases flavours and spices across India.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Spas for relaxtion.">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Take a break and enjoy at our outdoor swimming pool.">
+    </div>
+	</div>
+	<div class="row">
+	 <div class="column">
+      <img class="demo cursor" src="7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Heart of our Hotel.">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Bar Area Having all types of drinks.">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Our Hotel Gym ">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="10.jpg" style="width:100%" onclick="currentSlide(10)" alt="Comfortable Exceutive Premier Rooms.">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="11.jpg" style="width:100%" onclick="currentSlide(11)" alt="Presidential Suite with private featuring a classic mahogany desk.">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="12.jpg" style="width:100%" onclick="currentSlide(12)" alt="Playground for children.">
+    </div>
+	
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+
+		<div class="footer-awards">
+
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2020/08/FTG_FiveStarRatingLogo_2020_GoldPMS872_SPA.png" alt="2020 Forbes Travel Guide Spa Five Star Logo">
+						</div>
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2020/08/FTG_FiveStarRatingLogo_2020_GoldPMS872_HOTEL.png" alt="2020 Forbes Travel Guide Hotel Five Star Logo">
+						</div>
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2019/12/RelaisChateaux-Logo.png" alt="RelaisChateaux-Logo">
+						</div>
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2019/12/USNews-BestHotels-Logo.png" alt="USNews-BestHotels-Logo">
+						</div>
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2019/12/AAA-FiveDiamond-Logo.png" alt="AAA-FiveDiamond-Logo">
+						</div>
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2019/12/ta-travelers-choice-logo-e1576607819334-1.png" alt="TripAdvisor Travelers Choice 2017 Winner Logo Rancho Valencia Resort">
+						</div>
+
+											<div class="footer-logo">
+							<img src="https://ranchovalencia.com/wp-content/uploads/2019/12/TA-Excellence-2017.png" alt="TA-Excellence-2017">
+						</div>
+
+
+
+			</div>
+
+
+	</div>
+</footer>
+</body>
+<script src="menu.js"></script>
+</html>
